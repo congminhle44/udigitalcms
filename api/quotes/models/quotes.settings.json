@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quotes",
+  "info": {
+    "name": "quotes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text"
+    }
+  }
+}
